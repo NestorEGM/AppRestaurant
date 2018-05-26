@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppRestaurant</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_carta">Carta</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_promos">Promos</string>
+</resources>

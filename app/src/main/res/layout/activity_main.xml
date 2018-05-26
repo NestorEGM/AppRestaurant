@@ -1,0 +1,60 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar Usuario"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/editText"
+        android:layout_marginBottom="64dp"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/bEntrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bEntrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Ingresar"
+        android:layout_marginBottom="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:background="@color/gris"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/bRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Nuevo Cliente"
+        android:background="@color/blue"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

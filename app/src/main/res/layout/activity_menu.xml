@@ -1,0 +1,64 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Promociones"
+        android:id="@+id/bPromo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/blue"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Ubicación"
+        android:id="@+id/bMap"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/blue"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Menú"
+        android:id="@+id/bMenu"
+        android:layout_above="@+id/bMap"
+        android:layout_alignLeft="@+id/bMap"
+        android:layout_alignStart="@+id/bMap"
+        android:background="@color/blue"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Reservación"
+        android:id="@+id/bReserva"
+        android:layout_above="@+id/bPromo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/blue"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

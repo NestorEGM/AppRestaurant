@@ -1,0 +1,37 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/categoria"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue"
+        android:text="Comida"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:fontFamily="cursive"
+        android:gravity="center"/>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imagenV"
+        android:src="@drawable/baguette"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Baguette $40"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Resgistro"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero de Celuar"
+        android:inputType="phone"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/passR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Repetir Contraseña"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/bRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:background="@color/gris"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
